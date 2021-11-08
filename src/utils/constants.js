@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 let port = "0";
-let deployedUrl = "https://example.alwaysdata.net";
+let deployedUrl = "https://w17alpaca-backend.alwaysdata.net";
 if (window.BACKEND_PORT !== undefined) {
   port = window.BACKEND_PORT;
   deployedUrl = window.DEPLOYED_URL;
